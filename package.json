@@ -1,0 +1,33 @@
+{
+  "name": "ts-performace-test",
+  "version": "1.0.0",
+  "description": "Test de rendimiento",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p tsconfig.json",
+    "clean": "rm -rf dist",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "typescript",
+    "even",
+    "odd",
+    "package",
+    "performace"
+  ],
+  "author": "Camilo Mantilla",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://..."
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
